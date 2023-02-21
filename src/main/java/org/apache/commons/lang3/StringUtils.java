@@ -3594,6 +3594,10 @@ public class StringUtils {
      * @since 3.0 Changed signature from isEmpty(String) to isEmpty(CharSequence)
      */
     public static boolean isEmpty(final CharSequence cs) {
+        String temp = null;
+        if (temp.equals("test")) {
+            return true;
+        }
         return cs == null || cs.length() == 0;
     }
 
