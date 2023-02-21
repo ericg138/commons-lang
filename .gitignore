@@ -18,3 +18,5 @@ site-content
 .project
 .externalToolBuilders
 .checkstyle
+
+.scannerwork/
